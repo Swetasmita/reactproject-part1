@@ -18,6 +18,9 @@ const Home = () => {
         <Link to="/image-slider">
           <button>Image Carousel</button>
         </Link>
+        <Link to="/searchbar">
+          <button>Search Filter</button>
+        </Link>
     </div>
   );
 };

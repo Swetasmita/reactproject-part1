@@ -6,6 +6,7 @@ import Accordian from './components/accordian/Accordian';
 import RandomColor from './components/random-color/RandomColor';
 import StarRating from './components/star-rating/StarRating';
 import ImageSlider from './components/image-slider/ImageSlider';
+import SearchBar from './components/search-bar/SearchBar';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
               page={"1"}
               limit={"8"} />
           } />
-        
+          <Route path="/searchbar" element={<SearchBar />} />
       </Routes>
     </Router>
   );
