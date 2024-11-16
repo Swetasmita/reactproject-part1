@@ -8,6 +8,7 @@ import StarRating from './components/star-rating/StarRating';
 import ImageSlider from './components/image-slider/ImageSlider';
 import SearchBar from './components/search-bar/SearchBar';
 import ThemeToggle from './components/lightdark-theme/ThemeToggle';
+import QrCodeGenerator from './components/qrcode-generator/QrCodeGenerator';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           } />
           <Route path="/searchbar" element={<SearchBar />} />
           <Route path="/lightdark" element={<ThemeToggle />} />
+          <Route path="/qrcodegenerator" element={<QrCodeGenerator />} />
       </Routes>
     </Router>
   );

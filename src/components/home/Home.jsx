@@ -24,6 +24,9 @@ const Home = () => {
         <Link to="/lightdark">
           <button>Light Dark Theme App</button>
         </Link>
+        <Link to="/qrcodegenerator">
+          <button>QR Code Generator</button>
+        </Link>
     </div>
   );
 };
