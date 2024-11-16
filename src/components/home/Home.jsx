@@ -9,6 +9,9 @@ const Home = () => {
       <Link to="/accordian">
           <button>Accordian App</button>
         </Link>
+        <Link to="/randomColor">
+          <button>Random Color Generator</button>
+        </Link>
     </div>
   );
 };
