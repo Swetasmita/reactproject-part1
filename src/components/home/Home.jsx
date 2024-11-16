@@ -21,6 +21,9 @@ const Home = () => {
         <Link to="/searchbar">
           <button>Search Filter</button>
         </Link>
+        <Link to="/lightdark">
+          <button>Light Dark Theme App</button>
+        </Link>
     </div>
   );
 };

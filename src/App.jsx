@@ -7,6 +7,7 @@ import RandomColor from './components/random-color/RandomColor';
 import StarRating from './components/star-rating/StarRating';
 import ImageSlider from './components/image-slider/ImageSlider';
 import SearchBar from './components/search-bar/SearchBar';
+import ThemeToggle from './components/lightdark-theme/ThemeToggle';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               limit={"8"} />
           } />
           <Route path="/searchbar" element={<SearchBar />} />
+          <Route path="/lightdark" element={<ThemeToggle />} />
       </Routes>
     </Router>
   );
