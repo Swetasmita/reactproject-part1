@@ -15,6 +15,9 @@ const Home = () => {
         <Link to="/star-rating">
           <button>Star Rating App</button>
         </Link>
+        <Link to="/image-slider">
+          <button>Image Carousel</button>
+        </Link>
     </div>
   );
 };

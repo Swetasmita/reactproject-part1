@@ -5,6 +5,7 @@ import Home from './components/home/Home'
 import Accordian from './components/accordian/Accordian';
 import RandomColor from './components/random-color/RandomColor';
 import StarRating from './components/star-rating/StarRating';
+import ImageSlider from './components/image-slider/ImageSlider';
 
 function App() {
   return (
@@ -14,6 +15,14 @@ function App() {
         <Route path="/accordian" element={<Accordian />} />
         <Route path="/randomColor" element={<RandomColor />} />
         <Route path="/star-rating" element={<StarRating noOfStars={7} />} />
+        <Route
+          path="/image-slider"
+          element={
+            <ImageSlider
+              url={"https://picsum.photos/v2/list"}
+              page={"1"}
+              limit={"8"} />
+          } />
         
       </Routes>
     </Router>
