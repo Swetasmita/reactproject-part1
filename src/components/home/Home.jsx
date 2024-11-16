@@ -12,6 +12,9 @@ const Home = () => {
         <Link to="/randomColor">
           <button>Random Color Generator</button>
         </Link>
+        <Link to="/star-rating">
+          <button>Star Rating App</button>
+        </Link>
     </div>
   );
 };
