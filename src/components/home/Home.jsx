@@ -27,6 +27,9 @@ const Home = () => {
         <Link to="/qrcodegenerator">
           <button>QR Code Generator</button>
         </Link>
+        <Link to="/otp">
+        <button>OTP Generator</button>
+        </Link>
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/home/Home'
@@ -9,6 +8,7 @@ import ImageSlider from './components/image-slider/ImageSlider';
 import SearchBar from './components/search-bar/SearchBar';
 import ThemeToggle from './components/lightdark-theme/ThemeToggle';
 import QrCodeGenerator from './components/qrcode-generator/QrCodeGenerator';
+import Otp from './components/otp-generator/Otp';
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
           <Route path="/searchbar" element={<SearchBar />} />
           <Route path="/lightdark" element={<ThemeToggle />} />
           <Route path="/qrcodegenerator" element={<QrCodeGenerator />} />
+          <Route path="/otp" element={<Otp otpLength = {6} />} />
       </Routes>
     </Router>
   );
