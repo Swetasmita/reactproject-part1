@@ -1,13 +1,13 @@
 .home-container {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: rgb(81, 121, 240);
   box-shadow: 0px 0px 7px #ccc;
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 .home-container button {
   padding: 10px 15px;
@@ -20,4 +20,5 @@
   background-color: #faf99c;
   color: #000000;
   cursor: pointer;
+  margin: 5px;
 }

@@ -9,6 +9,7 @@ import SearchBar from './components/search-bar/SearchBar';
 import ThemeToggle from './components/lightdark-theme/ThemeToggle';
 import QrCodeGenerator from './components/qrcode-generator/QrCodeGenerator';
 import Otp from './components/otp-generator/Otp';
+import InfiniteScroll from './components/infinite-scroll/InfiniteScroll';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/lightdark" element={<ThemeToggle />} />
           <Route path="/qrcodegenerator" element={<QrCodeGenerator />} />
           <Route path="/otp" element={<Otp otpLength = {6} />} />
+          <Route path="/infinitescroll" element={<InfiniteScroll />} />
       </Routes>
     </Router>
   );

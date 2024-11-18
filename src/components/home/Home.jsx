@@ -30,6 +30,9 @@ const Home = () => {
         <Link to="/otp">
         <button>OTP Generator</button>
         </Link>
+        <Link to="/infinitescroll">
+        <button>Infinite Scroll</button>
+        </Link>
     </div>
   );
 };
